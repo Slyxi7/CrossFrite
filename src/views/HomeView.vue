@@ -20,6 +20,8 @@
 }
 .message-bienvenue p {
   color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 </style>
 
