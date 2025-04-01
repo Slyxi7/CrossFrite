@@ -1,12 +1,25 @@
 <template>
   <div class="container-maine">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, voluptatem.</p>
+    <div class="message-bienvenue">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+        voluptatem.
+      </p>
+    </div>
   </div>
 </template>
 
 <style scoped>
-p {
-  color: white;
+.container-maine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 118px;
+  width: 1206px;
+  background-color: white;
+}
+.message-bienvenue p {
+  color: black;
 }
 </style>
 
